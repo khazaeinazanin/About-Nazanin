@@ -1,6 +1,9 @@
 .root{
     --font-family: Arial, Helvetica, sans-serif;
 }
+.hero{
+    background-color:#f9f7fe ;
+}
 
 h1{
     font-family: var(--font-family);
@@ -89,5 +92,23 @@ position: relative;
     justify-content: space-evenly;
     margin-top: 2.5rem;
     border-radius: 20px;
+
+}
+.about-section-content h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    color:black ;
+    font-weight: 500;
+}
+.img-fluid{
+    max-width: 100%;
+    display: flex;
+    margin-left: 4.5rem;
+}
+@media(max-width: 900px){
+    .about-section{
+        text-align: center;
+        padding: 0;
+    }
 
 }
